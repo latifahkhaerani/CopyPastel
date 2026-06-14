@@ -1,7 +1,5 @@
-import { useState } from "react";
-import logo from "../public/logo.png";
+import logo from "/logo.png";
 import { useEffect } from "react";
-import { Link } from "react-router";
 
 export default function Navbar({
   fetchProduct,
