@@ -191,7 +191,11 @@ export default function Home() {
                   }}
                   className="cursor-pointer"
                 >
-                  <img src={sortlogo} className="w-auto h-10" alt="" />
+                  <img
+                    src={sortlogo}
+                    className="w-auto h-10"
+                    alt="click to sort!"
+                  />
                 </button>
               </div>
 
