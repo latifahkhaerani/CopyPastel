@@ -6,7 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { Link } from "react-router";
 import loader from "../src/assets/loader.svg";
-import sortlogo from "../src/assets/sort.png";
+// import sortlogo from "../src/assets/sort.png";
 
 export default function Home() {
   const [product, setProduct] = useState([]);
