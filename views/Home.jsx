@@ -6,7 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { Link } from "react-router";
 import loader from "../src/assets/loader.svg";
-
+import sortlogo from "../src/assets/sort.png";
 
 export default function Home() {
   const [product, setProduct] = useState([]);
@@ -191,20 +191,11 @@ export default function Home() {
                   }}
                   className="cursor-pointer"
                 >
-             <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    className="w-8 h-8"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M8 7h8M8 12h6M8 17h4"
-    />
-  </svg>
+                  <img
+                    src={sortlogo}
+                    className="w-auto h-10"
+                    alt="click to sort!"
+                  />
                 </button>
               </div>
 
