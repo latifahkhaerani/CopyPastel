@@ -173,15 +173,7 @@ export default function Home() {
             {/* Products Section */}
             <div className="mt-14">
               <div className="flex items-center justify-between mb-6">
-                <h1
-                  className="
-          text-5xl 
-          font-medium
-          tracking-tight
-          text-gray-800
-          mb-6
-        "
-                >
+                <h1 className=" text-5xl  font-medium tracking-tight text-gray-800 mb-6">
                   PRODUCT
                 </h1>
                 {/* sort */}
@@ -191,7 +183,20 @@ export default function Home() {
                   }}
                   className="cursor-pointer"
                 >
-                 <h1 className="text-gray-800 text-4xl"> ⇪ </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="w-8 h-8 text-gray-700"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M8 17V4m0 0L4 8m4-4l4 4M16 7v13m0 0l-4-4m4 4l4-4"
+                    />
+                  </svg>
                 </button>
               </div>
 
